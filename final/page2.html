@@ -1,29 +1,33 @@
 <!doctype html>
-<html lang="Default">
+<html lang="Fr-fr">
 <head>
-    <meta charset="utf-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
+	<meta charset="utf-8">
+	<title>La chouette Agence,agence web. Contact</title>
+    <meta name="keywords" content="seo, site web, site internet, agence design Lyon">
+
+	<meta property="og:description" content="La chouette agence est une excellente agence web qui aide
+	les entreprises à doubler leurs ventes en ligne, basée à Lyon." />
+
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="robots" content="index, follow">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
-	
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
     
-	<script src="./js/jquery-2.1.0.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>
-	<script src="./js/jqBootstrapValidation.js"></script>
-	<script src="./js/formHandler.js"></script>
-    <title>page2</title>
+	<script src="./js/jquery-2.1.0.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script defer src="./js/blocs.js"></script>
+	<script defer src="./js/jquery.touchSwipe.js"></script>
+	<script defer src="./js/gmaps.js"></script>
 
-    
-<!-- Analytics -->
- 
-<!-- Analytics END -->
+	 <!-- Global site tag (gtag.js) - Google Analytics -->
+	 <script async src="https://www.googletagmanager.com/gtag/js?id=G-P5VFYXYP75"></script>
+
     
 </head>
 <body>
@@ -31,11 +35,11 @@
 <div class="page-container">
     
 <!-- bloc-0 -->
-<div class="bloc bgc-white l-bloc " id="bloc-0">
+<header class="bloc bgc-white l-bloc " id="bloc-0">
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="atlanta web design logo" height="40" /></a>
+				<img src="img/la-chouette-agence.png" alt="atlanta web design logo" height="40" />
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
@@ -46,15 +50,13 @@
 						<a href="index.html">Accueil</a>
 					</li>
 					<li>
-					</li>
-					<li>
-						<a href="page2.html">page2 &gt;</a>
+						<a href="page2.html">page2</a>
 					</li>
 				</ul>
 			</div>
 		</nav>
 	</div>
-</div>
+</header>
 <!-- bloc-0 END -->
 
 <!-- bloc-6 -->
@@ -80,29 +82,29 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1" >
 					<div class="form-group">
 						<label>
 							Nom
 						</label>
-						<input id="name" class="form-control" required />
+						<input id="name" placeholder="exemple: BONTI Michel" class="form-control" required />
 					</div>
 					<div class="form-group">
 						<label>
 							Adresse email
 						</label>
-						<input id="email" class="form-control" type="email" required />
+						<input id="email" class="form-control" type="email" placeholder="monadresse@googpaage.com" required />
 					</div>
 					<div class="form-group">
 						<label>
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<input class="form-control" placeholder="Taper votre texte ici" type="email" required id="input_504" />
 					</div>
 					<div class="form-group">
 						<label>
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						</label><textarea id="message" class="form-control" rows="4" cols="50" placeholder="Taper votre texte ici" required></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
@@ -125,7 +127,7 @@
 
 
 <!-- Footer - bloc-8 -->
-<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
@@ -153,16 +155,45 @@
 							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
+
+					<!-- Supprimer et une ligne déja dans head						
+					<div class="keywords" style="color:#F3976C;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
+					-->
+				</div>
+				<div class="row">
+					<div class="col-sm-4">
+						<h2>Horaires d'ouverture</h2>
+						<ul>
+							<li>Du Lundi au Vendredi<br> 
+								8h30 à 12h30<br>
+								14h30 à 17h</li>
+							<li>Samedi-Dimanche:<br>
+								Fermeture
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm-4">
+						<h2>Partenaires</h2>
+							<ul>
+								<li><a href="www.ecole-de-beaux-arts.com">Ecole de beaux-arts</a></li>
+								<li><a href="univ-fac-info.com">Dept Informatique Lyon</a></li>	
+							</ul>		
+					</div>
+					<div class="col-sm-4">
+						<h2>Assistance</h2>
+						<ul>
+							<li>Tel 1: +33XXXXXXX13</li>
+							<li>Tel 2: +33XXXXXXX12</li>
+						</ul>
+					</div>					
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
+</footer>
 <!-- Footer - bloc-8 END -->
 
 </div>
 <!-- Principal conteneur END -->
-    
-
 </body>
 </html>
