@@ -480,7 +480,7 @@ h1,
     a {
         font-family: "helvetica";
         font-weight: 400;
-        color: #030000!important;
+        color: #000!important;
     }
 .bgc-white {
     background-color: #FFFFFF;
@@ -509,9 +509,24 @@ h1,
     margin-top: 5% 5% 5% 5%;
     
 }
+.container .bloc-lg{
+    margin-top: 2em;
 
-.tc-white {
-    color: #F3976C!important;
+}
+
+.col-sm-12 .tc-white {
+   /* color: #F3976C!important;*/
+   margin-top: 1em;
+   padding: 1em 2em;
+    background-color: rgb(128, 70, 58);
+    color: rgb(255, 255, 255);
+}
+.col-sm-12 .white{
+    margin-top: 0;
+    padding: 1em 2em;
+    color: rgb(255, 255, 255);
+    background-color: rgb(128, 70, 58);
+    
 }
 
 .btn-atomic-tangerine {
@@ -557,6 +572,9 @@ h1,
 }
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
+}
+.col-sm-3 a{
+    color: white;
 }
 
 
