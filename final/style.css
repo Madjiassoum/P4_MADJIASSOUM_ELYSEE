@@ -599,9 +599,12 @@ h1 span{
         font-size: 1.2em;
         font-weight: bold;
     } 
-    .row .col-sm-4 li{
-        font-size: 1.1em;
-        font-weight: bold;
+    .bloc .container .col-sm-12 .row .col-sm-4 ul{
+        text-align: left;
+        font-size: 1.3em;  
+        color: white;
+        font-weight: bold;   
+        list-style-type: none; 
     }
     .bloc {
         padding-left: 10px;
@@ -924,13 +927,23 @@ h1 span{
     .bloc .container .col-sm-12 .row .col-sm-3{    
         margin: 0;
     }
-    .bloc .container .col-sm-12 .row .col-sm-4 ul{
-        list-style-type: none;
+    .bloc .container .col-sm-12 .row .col-sm-3 a{    
+        margin: 0;
+        font-size: 1.1em;
+        font-weight: bold;
+        color: #FFF;
     }
     .bloc .container .col-sm-12 .row .col-sm-4 h2{
         text-align: center;
-        font-size: 1.2em;      
+        font-size: 1.5em;  
+        font-weight: bold;    
     }
+    .bloc .container .col-sm-12 .row .col-sm-4 h2{
+        font-weight: bold;    
+    }
+    .bloc .container .col-sm-12 .row .col-sm-4 ul{
+        list-style-type: none;
+    }    
     /* Fin pied de page */
 
     .bloc-sm .col-sm-12{
@@ -993,10 +1006,6 @@ h1 span{
     .bgc-atomic-tangerine {
         background-color: #c74b11;
         color: white;
-    }
-    .col-sm-3 .fa{
-        font-size: 1em;
-        margin-right: 0.1em;
     }
     .row-no-gutters {
         width: 100%;
@@ -1249,6 +1258,24 @@ h1 span{
     /*pour centrer le container pied de page*/
     .bloc .container .col-sm-12 .row{
         margin: auto;
+    }
+    .bloc .container .col-sm-12 .row .col-sm-3 a{    
+        margin: 0;
+        font-size: 1.1em;
+        font-weight: bold;
+        color: white;
+    }
+    .bloc .container .col-sm-12 .row .col-sm-4 h2{
+        text-align: left;
+        font-size: 1.5em;  
+        color: white;
+        font-weight: bold;    
+    }
+    .bloc .container .col-sm-12 .row .col-sm-4 ul li{
+        text-align: left;
+        font-size: 1.1em;  
+        color: white;
+        font-weight: bold;    
     }
 }
 
