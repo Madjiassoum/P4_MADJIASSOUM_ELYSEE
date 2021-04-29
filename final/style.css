@@ -64,16 +64,21 @@ footer .container{
     margin-right: 0.3em;
 }
 .bloc .container .col-sm-12 .row .col-sm-4 h2{
-    text-align: left;
-    font-size: 1.5em;  
+    text-align: center;
+    font-size: 1.7em;  
     color: white;
     font-weight: bold;    
+    margin-top: 1.5em;
+    margin-bottom: .51em;
 }
 .bloc .container .col-sm-12 .row .col-sm-4 ul li{
     text-align: left;
-    font-size: 1.1em;  
+    font-size: 1.3em;  
     color: white;
-    font-weight: bold;    
+    font-weight: bold;  
+}
+ul{
+    list-style-type: none;
 }
 .bloc-lg {
     padding: 0px 0px;   
