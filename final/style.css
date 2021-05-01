@@ -440,9 +440,12 @@ ul{
     font-size: 1.2em;
     color: rgba(0, 0, 0, .5);
 }
+
+/* formulaire page 2*/
 .col-sm-6 .form_1 button{
     font-size: 1.6em;
     color: white;
+    background-color: #511E06;
     font-weight: bold;
 }
 .col-sm-6 img{
@@ -1025,6 +1028,7 @@ h1 span{
     .col-sm-6 .form_1 button{
         font-size: 1.6em;
         color: white;
+        background-color: #511E06;
         font-weight: bold;
     }
     /* Fin pied de page */
@@ -1326,6 +1330,7 @@ h1 span{
     .voffset-lg {
         margin-top: 30px;
     }
+    /* Formulaire de page 2*/
     form {
         padding: 5px;
         width: 95%;
@@ -1338,6 +1343,13 @@ h1 span{
     .col-sm-6 .form_1 input{
         font-size: 1.2em;
         color: rgba(0, 0, 0, .5);
+    }
+    /* formulaire page 2*/
+    .col-sm-6 .form_1 button{
+        font-size: 1.6em;
+        color: white;
+        background-color: #511E06;
+        font-weight: bold;
     }
     .bloc .bloc-lg .row .col-sm-6 {
         width: 100%;
