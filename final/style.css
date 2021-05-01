@@ -102,6 +102,11 @@ ul{
 .bloc .bloc-lg .black-background .col-sm-12 p{
     width: 85%;
     margin-bottom: 2em;
+
+}
+.bloc .bloc-lg .row .col-sm-12 p{
+    color: #FFFFFF!important;
+    font-weight: bold;
 }
 
 /*   <<<<<<<RESTE A TRAITER LE BACKGR >>>>>>> */
