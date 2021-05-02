@@ -108,6 +108,10 @@ ul{
     color: #FFFFFF!important;
     font-weight: bold;
 }
+.bloc .bloc-lg .row .col-sm-12 .title2{
+    color: #000!important;
+    font-weight: bold;
+}
 
 /*   <<<<<<<RESTE A TRAITER LE BACKGR >>>>>>> */
 .bloc-lg .col-sm-12 .mg-md, .bloc-lg .col-sm-12 .white{
@@ -128,8 +132,8 @@ ul{
 }
 .col-sm-12-bcg p {
     display: inline-block;
-    background-color: rgba(220, 220, 220, 1);
-    color: rgb(0, 0, 0);
+    background-color: rgb(105, 50, 50);
+    color: rgba(0, 0, 0, 1);
     margin-top: 2em;
     margin-bottom: 1em;
     padding: 0.5em 0.5em;
@@ -1372,16 +1376,18 @@ h1 span{
         width: 180px;
         height: 320px;
     }
-    /*En forme de bouton avant le pied de page*/
+    /*En forme de bouton avant le pied de page*/    
     .col-sm-12-bcg p {
         display: inline-block;
-        background-color: rgba(220, 220, 220, 1);
-        color: rgb(0, 0, 0);
+        background-color: rgb(105, 50, 50);
+        color: rgba(0, 0, 0, 1);
         margin-top: 2em;
-        font-size: 1em;
+        margin-bottom: 1em;
+        padding: 0.5em 1em;
+        font-size: 1.2em;
         font-weight: bold;
         border-radius: 2em;
-    }
+}
     /*pour centrer le container pied de page*/
     .bloc .container .col-sm-12 .row{
         margin: auto;
